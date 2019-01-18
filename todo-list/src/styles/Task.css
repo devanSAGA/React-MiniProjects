@@ -1,0 +1,29 @@
+.task-element {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  border-radius: 5px;
+  background: #dbe2ef;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 10px;
+  line-height: 25px;
+}
+
+.task-text {
+  word-wrap: break-word;
+  color: #112d4e;
+  font-size: 20px;
+  align-self: center;
+  width: 90%;
+}
+
+.remove-task-button {
+  color: #112d4e;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}

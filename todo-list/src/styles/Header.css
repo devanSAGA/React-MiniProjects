@@ -1,0 +1,21 @@
+.todo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todo-title,
+.todo-subtitle {
+  color: #112d4e;
+  margin: 0px;
+}
+
+.todo-title {
+  font-size: 25px;
+}
+
+.todo-subtitle {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}

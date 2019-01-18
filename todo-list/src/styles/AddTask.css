@@ -1,0 +1,26 @@
+.addtask-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 35px;
+}
+
+.addtask-input {
+  background: #dbe2ef;
+  color: #112d4e;
+  width: 75%;
+  min-height: inherit;
+  padding-left: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.addtask-button {
+  background: #112d4e;
+  color: #dbe2ef;
+  border-radius: 50%;
+  border: 0;
+  height: 35px;
+  width: 35px;
+}
