@@ -24,3 +24,9 @@
   height: 35px;
   width: 35px;
 }
+
+.addtask-error {
+  display: block;
+  padding-top: 3px;
+  color: #cb3737;
+}

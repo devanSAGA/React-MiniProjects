@@ -18,6 +18,11 @@ class App extends React.Component {
   }
 
   handleAddTask(task) {
+    if (!task.trim()) {
+      return "Enter Valid String";
+    } else if (this.state.tasks.indexOf(task.trim()) > -1) {
+      return "This Value Already Exists In The List";
+    }
     this.setState(prevState => ({ tasks: prevState.tasks.concat([task]) }));
   }
 
