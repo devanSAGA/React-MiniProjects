@@ -1,0 +1,21 @@
+.control-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  color: #f9f7f7;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-bottom: 5px solid #f9f7f7;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
