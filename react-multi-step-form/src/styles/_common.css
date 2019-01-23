@@ -1,0 +1,20 @@
+.form-container {
+  background-color: #4a4a48;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.form-details,
+input[type="text"] {
+  min-width: 300px;
+  max-width: 400px;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fab95b;
+  border-bottom: 5px solid #ff8b00;
+}

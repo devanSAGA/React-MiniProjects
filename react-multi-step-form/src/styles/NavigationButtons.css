@@ -1,0 +1,17 @@
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next-button,
+.prev-button {
+  width: 80px;
+  height: 40px;
+  background-color: #fab95b;
+  color: #1d2323;
+  margin: 10px 5px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-bottom: 5px solid #ff8b00;
+}
